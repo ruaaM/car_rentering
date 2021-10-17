@@ -1,4 +1,4 @@
-import 'package:car/wigets/app_bar.dart';
+import 'package:car/wigets/scafold.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,13 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: const MyHomePage(title: ''),
+      home: MyHomePage(title: 'b'),
     );
   }
 }

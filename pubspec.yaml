@@ -61,6 +61,12 @@ flutter:
   assets:
     - images/waves.png
     - images/girlAvatar.png
+    - images/car1.png
+    - images/car2.png
+    - images/lamborghini.png
+
+
+
   
 
   # An image asset can refer to one or more resolution-specific "variants", see
